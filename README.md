@@ -101,5 +101,24 @@ The IsStockAvailable method checks if there's enough product in stock. It connec
             }
         }
 
+UpdateStockQuantity is the method used to update the number of products in stock when a sale is made. Similarly, when the sale is updated, the same method updates the number of products in stock. When a sale is made, the number of products in stock decreases and when an update is made or a return is made, the number of products in stock increases.
 
+     private void UpdateStockQuantity(string productId, int quantityDifference)
+        {
+            try
+            {
+                using (OleDbConnection oleDbConnection = new OleDbConnection(connectionString))
+                {
+                    oleDbConnection.Open();
+                    OleDbCommand command = new OleDbCommand("UPDATE Product SET StockQuantity = StockQuantity + @QuantityDifference WHERE ProductID = @ProductID", oleDbConnection);
+                    command.Parameters.AddWithValue("@QuantityDifference", quantityDifference);
+                    command.Parameters.AddWithValue("@ProductID", productId);
+                    command.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error updating stock quantity: " + ex.Message);
+            }
+        }
 
