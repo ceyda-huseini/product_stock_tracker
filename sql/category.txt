@@ -1,0 +1,5 @@
+CREATE TABLE Category (
+    CategoryID AUTOINCREMENT PRIMARY KEY,
+    CategoryName TEXT(255) NOT NULL UNIQUE,
+    IsDeleted YESNO DEFAULT FALSE
+);
