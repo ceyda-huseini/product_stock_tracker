@@ -73,3 +73,33 @@ It redirects you back to the login page.
 ### About
 A short message about me and my project.
 ![About](https://github.com/ceydahuseini/product_stock_tracker/blob/61a6d913ab798d65d4aca892101ec3a4e8f3d3f0/project_images/8.png)
+
+## Description of the Sales Form(FrmSale Form)
+The project has many important functions, but in my opinion, the most important one is that we need to consider certain parameters when making sales in the sales form. Such as the existence of the product in stock, not entering a future date, not entering negative quantity, and updating the number of products in stock when making a sale.
+The `private bool IsStockAvailable(string productId, int requestedQuantity)` method is one of the important methods.
+
+The IsStockAvailable method checks if there's enough product in stock. It connects to the database, retrieves the current stock level for a given product ID, and compares it to the requested amount. If there's enough stock, it returns true, otherwise it returns false. It also handles errors during database interaction for reliability.
+
+        private bool IsStockAvailable(string productId, int requestedQuantity)
+        {
+            try
+            {
+                using (OleDbConnection oleDbConnection = new OleDbConnection(connectionString))
+                {
+                    oleDbConnection.Open();
+                    OleDbCommand command = new OleDbCommand("SELECT StockQuantity FROM Product WHERE ProductID = @ProductID", oleDbConnection);
+                    command.Parameters.AddWithValue("@ProductID", productId);
+                    int currentStock = (int)command.ExecuteScalar();
+
+                    return currentStock >= requestedQuantity;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error checking stock availability: " + ex.Message);
+                return false;
+            }
+        }
+
+
+
