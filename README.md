@@ -45,10 +45,16 @@ Meanwhile, all possible mistakes that the user can make are taken into account. 
 
 ### Sales
 In the sale form, there are sale, update, delete, clear and calculate buttons.
-The Sale button is used to make sales. In order for the sale to be made, the product must be in stock, otherwise you will receive a warning message that the product is out of stock.
+The Sale button is used to make sales. In order for the sale to be made, the product must be in stock, otherwise you will receive a warning message that the product is not in stock. Again, you cannot make a sale at a later date. If you try to make a sale, you will receive a warning message (Errorprovider).
+
+When you make a sale, the number of products in stock is also updated.
+For example, if there are 10 phones in stock, if you sell 3, the number of products in stock will be 7.
 
 Update is the button used to update sales.
 Delete is the button used to delete the sale.
 Clear is the button used to clear the information of the selected product from tools (texbox, combox, etc.).
 The Calculate button is the button that only helps you find out the total price. It finds the total price by multiplying the quantity and price in the background. You can also sell without using the Calculate button, but I recommend you use it so that you can find out the price of the product without going to the Product form and do not calculate it manually when selling.
+
 Meanwhile, all possible mistakes that the user can make are taken into consideration. For example, trying to delete without selecting sale, entering negative quantity, entering empty information, etc. The project also includes the necessary erroproviders.
+
+[Watch Sales Video](https://drive.google.com/file/d/1Ooe3-zLm36t8en7_CINzeyUCeQlttqmK/view?usp=sharing)
