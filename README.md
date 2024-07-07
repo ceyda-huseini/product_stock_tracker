@@ -18,5 +18,6 @@ There is also a password change area in the application. You can change your pas
 
 ### Home Page
 When we log into the system correctly, we go to the home page. The project consists of a total of six parts. Let us examine these six sections in detail.
-![Home Page](https://github.com/cuneythuseini/HotelManagementSystem/blob/master/img/HomePage.png)
+
+![Home Page](https://github.com/ceydahuseini/product_stock_tracker/blob/c49524cfc7d1d1e375a42509ff56aea4926ea16c/project_images/6.png)
 
