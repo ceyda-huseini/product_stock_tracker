@@ -15,3 +15,8 @@ There is also a password change area in the application. You can change your pas
 ![Change Passoword](https://github.com/ceydahuseini/product_stock_tracker/blob/07e1b3d05f3beba43250cb8623d2ab45366eba87/project_images/3.png)
 ![Change Passoword](https://github.com/ceydahuseini/product_stock_tracker/blob/07e1b3d05f3beba43250cb8623d2ab45366eba87/project_images/4.png)
 ![Change Passoword](https://github.com/ceydahuseini/product_stock_tracker/blob/07e1b3d05f3beba43250cb8623d2ab45366eba87/project_images/5.png)
+
+### Home Page
+When we log into the system correctly, we go to the home page. The project consists of a total of six parts. Let us examine these six sections in detail.
+![Home Page](https://github.com/cuneythuseini/HotelManagementSystem/blob/master/img/HomePage.png)
+
