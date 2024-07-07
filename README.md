@@ -61,7 +61,9 @@ Meanwhile, all possible mistakes that the user can make are taken into considera
 
 
 ### Radio
-To listen to the radio, you need to click on the button to listen to the radio. There are 4 channels in the form of radio in total, you can click on the channel you want and listen to it.(<b>You must have an internet connection to listen to the radio.</b>)
+To listen to the radio, you need to click on the button to listen to the radio. There are 4 channels in the form of radio in total, you can click on the channel you want and listen to it.
+
+<b>You must have an internet connection to listen to the radio.</b>
 
 ![Radio](https://github.com/ceydahuseini/product_stock_tracker/blob/61a6d913ab798d65d4aca892101ec3a4e8f3d3f0/project_images/7.png)
 
