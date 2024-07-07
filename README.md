@@ -58,3 +58,7 @@ The Calculate button is the button that only helps you find out the total price.
 Meanwhile, all possible mistakes that the user can make are taken into consideration. For example, trying to delete without selecting sale, entering negative quantity, entering empty information, etc. The project also includes the necessary erroproviders.
 
 [Watch Sales Video](https://drive.google.com/file/d/1Ooe3-zLm36t8en7_CINzeyUCeQlttqmK/view?usp=sharing)
+
+
+### Radio
+To listen to the radio, you need to click on the button to listen to the radio. There are 4 channels in the form of radio in total, you can click on the channel you want and listen to it.
