@@ -3,7 +3,7 @@
 ## Application Description
 The goal of the project is to manage product sales and inventory information using the access database. The program will generally include products, categories and sales.The project also has additional features such as listening to the radio.
 
-### Er Diagram (Microsoft Access)
+### ER Diagram (Microsoft Access)
 ![ER Diagram](https://github.com/ceydahuseini/product_stock_tracker/blob/e703be595f6fdf758e29dc502915bf9b55be16d1/project_images/er_diagram.png)
 
 ## Usage
@@ -35,7 +35,7 @@ In the product form, there are also add, update, delete and clear buttons. Let's
 1) Product Name: Briefly represents the name of the product
 2) Description: More detailed information or explanation about the product
 3) Price: The price of the product
-4) Stock Qunatity: Stock represents how many of that product are left.
+4) Stock Quantity: Stock represents how many of that product are left.
 5) Brand: Brand of the product
 6) Category: Column showing which category the product belongs to.
 
