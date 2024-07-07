@@ -68,7 +68,7 @@ To listen to the radio, you need to click on the button to listen to the radio. 
 ### Login Page
 It redirects you back to the login page.
 
-![About](https://github.com/ceydahuseini/product_stock_tracker/blob/61a6d913ab798d65d4aca892101ec3a4e8f3d3f0/project_images/1.png)
+![About](https://github.com/ceydahuseini/product_stock_tracker/blob/3251edf0c9315d1193b17a2a4e02cd8eb65025ba/project_images/9.png)
 
 ### About
 A short message about me and my project.
