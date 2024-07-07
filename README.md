@@ -65,6 +65,11 @@ To listen to the radio, you need to click on the button to listen to the radio. 
 
 ![Radio](https://github.com/ceydahuseini/product_stock_tracker/blob/61a6d913ab798d65d4aca892101ec3a4e8f3d3f0/project_images/7.png)
 
+### Login Page
+It redirects you back to the login page.
+
+![About](https://github.com/ceydahuseini/product_stock_tracker/blob/61a6d913ab798d65d4aca892101ec3a4e8f3d3f0/project_images/1.png)
+
 ### About
 A short message about me and my project.
 ![About](https://github.com/ceydahuseini/product_stock_tracker/blob/61a6d913ab798d65d4aca892101ec3a4e8f3d3f0/project_images/8.png)
