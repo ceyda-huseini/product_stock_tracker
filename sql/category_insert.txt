@@ -1,0 +1,5 @@
+INSERT INTO Category (CategoryName, IsDeleted) VALUES ('Electronics', FALSE);
+INSERT INTO Category (CategoryName, IsDeleted) VALUES ('Clothing', FALSE);
+INSERT INTO Category (CategoryName, IsDeleted) VALUES ('Books', FALSE);
+INSERT INTO Category (CategoryName, IsDeleted) VALUES ('Furniture', FALSE);
+INSERT INTO Category (CategoryName, IsDeleted) VALUES ('Toys', FALSE);

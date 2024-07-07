@@ -1,0 +1,10 @@
+INSERT INTO Product (ProductName, Description, Price, StockQuantity, Brand, CategoryID, IsDeleted) 
+VALUES ('Smartphone', 'Latest model smartphone', 699.99, 50, 'BrandA', 1, FALSE);
+INSERT INTO Product (ProductName, Description, Price, StockQuantity, Brand, CategoryID, IsDeleted) 
+VALUES ('Laptop', 'High performance laptop', 999.99, 30, 'BrandB', 1, FALSE);
+INSERT INTO Product (ProductName, Description, Price, StockQuantity, Brand, CategoryID, IsDeleted) 
+VALUES ('T-Shirt', '100% cotton t-shirt', 19.99, 100, 'BrandC', 2, FALSE);
+INSERT INTO Product (ProductName, Description, Price, StockQuantity, Brand, CategoryID, IsDeleted) 
+VALUES ('Jeans', 'Denim jeans', 49.99, 60, 'BrandD', 2, FALSE);
+INSERT INTO Product (ProductName, Description, Price, StockQuantity, Brand, CategoryID, IsDeleted) 
+VALUES ('Bookshelf', 'Wooden bookshelf', 149.99, 20, 'BrandE', 4, FALSE);

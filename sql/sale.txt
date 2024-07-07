@@ -1,0 +1,9 @@
+CREATE TABLE Sale (
+    SaleID AUTOINCREMENT PRIMARY KEY,
+    SaleDate DATETIME NOT NULL,
+    TotalAmount CURRENCY NOT NULL CHECK (TotalAmount >= 0),
+    ProductID INTEGER NOT NULL,
+    SellerName TEXT(255) NOT NULL,
+    IsDeleted YESNO DEFAULT FALSE,
+    FOREIGN KEY (ProductID) REFERENCES Product(ProductID)
+);

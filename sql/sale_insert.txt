@@ -1,0 +1,10 @@
+INSERT INTO Sale (SaleDate, TotalAmount, ProductID, SellerName, IsDeleted) 
+VALUES (#2023-01-15#, 699.99, 1, 'Seller1', FALSE);
+INSERT INTO Sale (SaleDate, TotalAmount, ProductID, SellerName, IsDeleted) 
+VALUES (#2023-02-10#, 999.99, 2, 'Seller2', FALSE);
+INSERT INTO Sale (SaleDate, TotalAmount, ProductID, SellerName, IsDeleted) 
+VALUES (#2023-03-05#, 19.99, 3, 'Seller3', FALSE);
+INSERT INTO Sale (SaleDate, TotalAmount, ProductID, SellerName, IsDeleted) 
+VALUES (#2023-04-20#, 49.99, 4, 'Seller4', FALSE);
+INSERT INTO Sale (SaleDate, TotalAmount, ProductID, SellerName, IsDeleted) 
+VALUES (#2023-05-15#, 149.99, 5, 'Seller5', FALSE);

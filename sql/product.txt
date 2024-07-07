@@ -1,0 +1,11 @@
+CREATE TABLE Product (
+    ProductID AUTOINCREMENT PRIMARY KEY,
+    ProductName TEXT(255) NOT NULL,
+    Description MEMO,
+    Price CURRENCY NOT NULL,
+    StockQuantity INTEGER NOT NULL CHECK (StockQuantity >= 0),
+    Brand TEXT(255) NOT NULL,
+    CategoryID INTEGER NOT NULL,
+    IsDeleted YESNO DEFAULT FALSE,
+    FOREIGN KEY (CategoryID) REFERENCES Category(CategoryID) ON DELETE CASCADE
+);
