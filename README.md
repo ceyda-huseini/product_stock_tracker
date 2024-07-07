@@ -24,4 +24,4 @@ When we log into the system correctly, we go to the home page. The project consi
 
 ### Categories
 Adding, updating and deleting categories to the database can be done in the system. Additionally, there is a clear button since the selected category name is transferred to the textbox. You can clear the textbox with Clear. The use of all these operations is given in the video below.
-![Categories](https://drive.google.com/file/d/1QNsyAphnLe-ZRZallUmuFf_oQmWlVgQT/view?usp=sharing)
+[Categories](https://drive.google.com/file/d/1QNsyAphnLe-ZRZallUmuFf_oQmWlVgQT/view?usp=sharing)
